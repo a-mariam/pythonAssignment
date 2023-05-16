@@ -1,0 +1,5 @@
+file = open("product_records.txt", mode="w")
+file.write("01 drink 100\t")
+file.write('02 food 7000\t')
+file.write('03 can 8990\t')
+file.close()
